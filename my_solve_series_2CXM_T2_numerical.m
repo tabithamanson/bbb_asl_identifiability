@@ -17,7 +17,7 @@ num_echoes=length(t_array)/length(TI_array);
         T1t=(0:10:5100)./1000; % 5100 arbitrarily chosen maximum time (increase if needed). Change increment from 10 to 1 if TI is given to the nearest ms (currently to the nearest 10 ms)
         ind0=find(T1t==TI0);
         % Find longitudinal magn. at t=TI (init. conditions)
-        [Mt0,Mp0,Me0]=my_solve_series_2CXM_numerical_RA(k,TA,tau,R1p,R1e,f,d,M0,(0:10:5000)./1000, 1);
+        [Mt0,Mp0,Me0]=my_solve_series_2CXM_numerical(k,TA,tau,R1p,R1e,f,d,M0,(0:10:5000)./1000, 1);
         Mt0=Mp0(ind0)+Me0(ind0);
     
         % Solve
