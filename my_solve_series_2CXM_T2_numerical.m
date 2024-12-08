@@ -1,5 +1,5 @@
 function [Mt,Mp,Me,Mt0] = my_solve_series_2CXM_T2_numerical(k,TA,tau,R1p,R1e,R2p,R2e,f,d,M0,t_array,TI_array,heaviside_approx)
-% Solve parallel_2CXM numerically (multi-echo scan context)
+% Solve series_2CXM numerically (multi-echo scan context)
 %k is steepness of the heaviside approximation
 %heaviside_approx (boolean) = 0 means just use the exact heaviside function
 %NOTE I typically call this with just one TI so multiple TIs in "TI_array" might be buggy 
