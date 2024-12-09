@@ -14,3 +14,7 @@
 - numerical_structural_id_by_sensitivity_SE_series.m
 - numerical_structural_id_by_sensitivity_ME_parallel.m
 - numerical_structural_id_by_sensitivity_ME_series.m
+
+## Scripts for fitting simulations:
+- sim_fit_ME_parallel_2CXM.m
+- sim_fit_ME_series_2CXM.m
