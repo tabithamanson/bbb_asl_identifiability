@@ -18,3 +18,11 @@
 ## Scripts for fitting simulations:
 - sim_fit_ME_parallel_2CXM.m
 - sim_fit_ME_series_2CXM.m
+
+## kw_fitting_repository.m
+Contains
+- gm_whole_fit.m (fit for kw, ME parallel 2CXM)
+- gm_whole_fit_series.m (fit for kw, ME series 2CXM)
+- 4 x my_solve...m model functions (note these differ from those of the same name under "Functions that solve the BBB ASL models" - sorry about the naming)
+- GM_tSNR_calculate_mcf_topup.m (used to find the relationship between noise and signal magnitude for one participant with 10 repeats)
+
