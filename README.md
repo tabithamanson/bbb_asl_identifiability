@@ -19,7 +19,7 @@
 - sim_fit_ME_parallel_2CXM.m
 - sim_fit_ME_series_2CXM.m
 
-## kw_fitting_repository.m
+## kw_fitting_repository.zip
 Contains
 - gm_whole_fit.m (fit for kw, ME parallel 2CXM)
 - gm_whole_fit_series.m (fit for kw, ME series 2CXM)
