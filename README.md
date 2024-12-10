@@ -1,5 +1,8 @@
 # bbb_asl_identifiability
 
+This git repository contains code that was used to generate results for the manuscript:
+"On the structural and practical identifiability of BBB-ASL tracer kinetic models."
+
 ## Functions that solve the BBB ASL models:
 - my_buxton_analytical.m                     
 - my_solve_buxton_numerical.m                 
