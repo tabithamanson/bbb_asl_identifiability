@@ -26,3 +26,5 @@ Contains
 - 4 x my_solve...m model functions (note these differ from those of the same name under "Functions that solve the BBB ASL models" - sorry about the naming)
 - GM_tSNR_calculate_mcf_topup.m (used to find the relationship between noise and signal magnitude for one participant with 10 repeats)
 
+## preprocessing_repository.tar.gz
+Contains scripts that were used for image preprocessing as well as config and parameter files for FSL topup. Included for reference but not user-friendly, and require FMRIB FSL to be installed.
